@@ -5,6 +5,8 @@ function sumRange(num) {
 
 sumRange(3)
 
+module.exports = { sumRange }
+
 // Como funciona?
 
 // sumRange(3)

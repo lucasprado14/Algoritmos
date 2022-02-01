@@ -6,15 +6,17 @@ function naiveSearch(longa, curta) {
         for (var j = 0; j < curta.length; j++) {
             console.log(curta[j], longa[i + j])
             if (curta[j] !== longa[i + j]) {
-                console.log("BREAK!")
+                // console.log("BREAK!")
                 break;
             }
             if (j === curta.length - 1) {
-                console.log("FOUND ONE!")
+                //console.log("FOUND ONE!")
                 count++;
             }
         }
     }
     return count;
 }
-naiveSearch("kkaiqualçlççlasdmmqiiiaiasl", "ai")
+
+module.exports = { naiveSearch }
+//naiveSearch("kkaiqualçlççlasdmmqiiiaiasl", "ai")

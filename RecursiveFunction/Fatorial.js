@@ -3,4 +3,4 @@ function fatorial(num) {
     return num * fatorial(num - 1);
 }
 
-fatorial(5)
+module.exports = { fatorial }

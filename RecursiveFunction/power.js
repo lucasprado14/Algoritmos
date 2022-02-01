@@ -9,3 +9,5 @@ function power(base, exponent) {
 
     return result;
 }
+
+module.exports = { power }

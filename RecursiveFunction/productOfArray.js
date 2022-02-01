@@ -10,3 +10,5 @@ const productOfArray = (arr) => {
 
     return result;
 };
+
+module.exports = { productOfArray }

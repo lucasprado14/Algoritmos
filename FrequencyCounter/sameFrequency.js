@@ -1,4 +1,4 @@
-// escreva uma função que receba 2 numeros, e retorne "true" se eles tiverem as mesmas
+// escreva uma função que receba 2 numeros, e retorne "true" se eles tiverem a mesma
 // frequecia de digitos, e "false" caso nao tenham.
 // o codigo deve ter O(N)
 
@@ -24,3 +24,4 @@ function sameFrequency(num1, num2) {
 
     return true;
 }
+module.exports = { sameFrequency }
